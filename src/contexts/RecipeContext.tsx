@@ -18,12 +18,6 @@ type RecipeStoreProp = {
 
 const RecipeProvider = ({ children }: RecipeStoreProp) => {
   const [recipes, setRecipes] = useLocalStorage("recipes", recipeList);
-  // useEffect(() => {
-  //   // add recipes to local storage;
-  //   localStorage.setItem("recipes", JSON.stringify(recipes));
-  // }, [recipes]);
-
-  // get the item when page loads
 
   // functions
   const getRecipe = (id: string) => {
