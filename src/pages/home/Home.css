@@ -1,0 +1,17 @@
+.box {
+  position: relative;
+  width: fit-content;
+  /* background-color: red; */
+}
+
+.top {
+  position: absolute;
+  top: -0.3rem;
+  right: -1.5rem;
+  font-size: 0.7rem;
+  font-weight: inherit;
+  background-color: var(--moderate-blue);
+  color: var(--white);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--br-sm);
+}

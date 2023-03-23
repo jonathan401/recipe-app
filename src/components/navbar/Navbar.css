@@ -1,0 +1,35 @@
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: var(--white);
+  padding: 0.8rem clamp(1rem, 2.5vw, 5rem);
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.07);
+}
+
+.home-link {
+  color: var(--dark-blue);
+  /* had to do this */
+  font-size: 0.9rem;
+  transition: color 100ms ease;
+}
+
+/* .home-link:active {
+  outline: 3px dotted var(--moderate-blue);
+  outline-offset: 3px;
+  border-radius: var(--br-sm);
+} */
+
+.home-link:hover {
+  color: var(--moderate-blue);
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}

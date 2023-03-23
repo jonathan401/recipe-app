@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: var(--br-lg);
+  color: var(--dark-blue);
+  box-shadow: 0 0 1px 0 rgba(189, 192, 207, 0.06),
+    0 10px 16px -1px rgba(189, 192, 207, 0.2);
+  /* border: 1px solid var(--light-gray); */
+}
+
+.card a {
+  width: fit-content;
+  align-self: center;
+  /* margin: 0 auto; */
+}
+
+.card-header-wrapper {
+  display: flex;
+  margin-bottom: 0.9rem;
+}
+
+.delete-btn {
+  background-color: transparent !important;
+  margin-left: auto;
+  min-width: fit-content;
+  min-height: 0;
+  padding: 0.4rem 0.5rem;
+  outline-color: var(--soft-red) !important;
+}
+
+.card svg {
+  scale: 1.1;
+}
+
+.card svg:focus {
+  outline: 2px solid red;
+}
+
+.cooking-time {
+  color: var(--grayish-blue);
+}
+
+.card-body {
+  margin: 0.8rem 0;
+}

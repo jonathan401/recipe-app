@@ -1,0 +1,70 @@
+form {
+  max-width: 480px;
+  margin: 4rem auto;
+}
+
+.ingredients-wrap {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.ingredient-list-wrap {
+  margin-top: 0.45rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#current-ingredients {
+  margin-bottom: 0.2rem;
+}
+
+.ingredient-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  width: fit-content;
+}
+
+.ingredient-list .tag {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: var(--grayish-blue); /* or use the moderate blue*/
+  color: var(--white);
+  padding: 0.2rem 0.4rem;
+  min-width: 3rem;
+  border-radius: var(--br-sm);
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tag span,
+.tag li {
+  display: block;
+}
+
+.tag span {
+  cursor: pointer;
+  text-align: center;
+  border-radius: var(--br-sm);
+  font-weight: 600;
+  color: var(--dark-blue);
+  background-color: var(--white);
+  padding: 0.1rem 0.4rem;
+  display: grid;
+  place-items: center;
+}
+
+.tag span:hover {
+  opacity: 0.8;
+}
+/* .ingredient-list li::after {
+  content: ",";
+}
+
+.ingredient-list li:last-child::after {
+  content: ".";
+} */
