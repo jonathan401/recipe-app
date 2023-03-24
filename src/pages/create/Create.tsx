@@ -120,7 +120,7 @@ export default function Create() {
           <label htmlFor="cooking-time-field">Cooking time (minutes):</label>
           <input
             autoComplete="off"
-            id="cooking-time-field"
+            id="cooking-time-field"in
             type="number"
             value={cookingTime}
             onChange={(e) => setCookingTime(e.target.value)}
@@ -128,7 +128,7 @@ export default function Create() {
           />
         </div>
         <button type="submit" className="btn">
-          submit
+          Submit
         </button>
       </form>
     </>
